@@ -24,7 +24,7 @@
     "remote"     : "gitlab"
   },
   {
-    "repository" : "DerpFest-Devices/vendor_xiaomi_cepheus",
+    "repository" : "exthmui-devices/android_vendor_xiaomi_cepheus",
     "target_path": "vendor/xiaomi/cepheus",
     "branch"     : "ten",
     "remote"     : "github"
