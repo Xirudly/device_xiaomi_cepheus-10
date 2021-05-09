@@ -21,14 +21,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from cepheus device
 $(call inherit-product, device/xiaomi/cepheus/device.mk)
 
-# Inherit some common AOSiP stuff.
+# Inherit some common exTHmUI stuff.
 $(call inherit-product, vendor/exthm/config/common_full_phone.mk)
-
-#GApps
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-IS_PHONE := true
-TARGET_INCLUDE_STOCK_ARCORE := true
 
 # Device identifier
 PRODUCT_NAME := exthm_cepheus
